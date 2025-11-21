@@ -1,0 +1,75 @@
+/* Body dan container */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Judul halaman */
+h2 {
+    margin-top: 0;
+    font-size: 26px;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+/* Input dan textarea */
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Tombol submit / update dan tombol kembali */
+form button,
+.back-btn {
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    color: white;
+    transition: background 0.3s ease;
+    margin-right: 10px; /* Jika ada 2 tombol sejajar */
+}
+
+/* Tombol submit / update */
+form button {
+    background: #007bff;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* Tombol kembali */
+.back-btn {
+    background: #555;
+}
+
+.back-btn:hover {
+    background: #333;
+}
